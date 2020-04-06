@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------Menú---------*/
+.body .menu{ 
+    margin: 0;
+    padding: 0;
+    position: fixed;
+	overflow: hidden;
+    height: 100%;
+    width: 20%;
+    padding-bottom: 0%;
+    float: left;
+    background-color: #0C1F26;
+}
+
+.body .menu .list{
+    margin: 0;
+    padding: 0;
+    color: white;
+	text-decoration: none;
+    list-style-type: none;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	width: 100%;
+    text-align: center;
+}
+
+.body .menu .opcion{
+    font-size: 1.2em;
+    font-family: 'Pridi', serif;
+}
+
+.body .menu .opcion:hover{
+    background: rgb(94, 140, 145);
+    text-shadow: 4px 4px 4px #0C1F26;
+}
+
+.body .menu .logo{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+	text-decoration: none;
+}
+
+.body .menu .hr-menu
+{
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.body .menu .nombre{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    -webkit-transition: all 0.75s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/*-------Pantalla---------*/
+
+.pantalla
+{  
+    padding-top: 3%;
+    width: 78%;
+    float: right;
+}
+
+h1
+{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p
+{
+    padding-top: 5px;
+    padding-bottom: 8px;
+    font-family: 'Open Sans', sans-serif;
+}
