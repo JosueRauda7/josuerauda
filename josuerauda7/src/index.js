@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Salu2 from './components/salu2';
-import Menu from './components/menu';
+import 'bootstrap/dist/css/bootstrap.css';
+import './Global.css';
 
-const App = <div>
-  <Menu />
-  <h1>Hola, mi nombre es Josué</h1>
-  <Salu2 />
-</div>;
+//import pages
+import Blog from './pages/Blog';
+
+const App = <Blog />;
 
 const container = document.getElementById('App');
 

@@ -1,0 +1,21 @@
+.list{
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.opcion{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Pridi', serif;
+}
+
+.opcion:hover{
+    text-decoration: none;
+    color:white;
+    background: #A7D4D9;
+    text-shadow: 2px 2px 2px #0C1F26;
+}

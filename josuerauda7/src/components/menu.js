@@ -1,28 +1,25 @@
 import React from 'react';
 
+//components
+import OpcionMenu from './OpcionMenu';
+
+//style
+import './styles/Menu.css';
+
 class Menu extends React.Component
 {
     render(){
-        return <div>
-                    <ul>
-                        <li class="list nombre">
-                            <a class="logo" href="index.html">Josué Rauda</a>
+        return (<div className="menu container-fluid">
+                    <ul className="row">
+                        <li className="nombre col-2">
+                            <a className="logo" href="/">Josué Rauda</a>
                         </li>
-                        <hr class="hr-menu" />
-                        <a class="list opcion" href="index.html">
-                            <li>Inicio</li>
-                        </a>
-                        <a class="list opcion" href="">
-                            <li>Categorías</li>
-                        </a>
-                        <a class="list opcion" href="">
-                            <li>Contáctame</li>
-                        </a>
-                        <a class="list opcion" href="">
-                            <li>Biografía</li>
-                        </a>
+                        <OpcionMenu opcion="Inicio" url="/" />
+                        <OpcionMenu opcion="Blog" url="/" />
+                        <OpcionMenu opcion="Contáctame" url="/" />
+                        <OpcionMenu opcion="Sobre mí" url="/" />
                     </ul>
-            </div>;
+            </div>);
     }
 }
 

@@ -1,0 +1,23 @@
+/*Fuentes Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@400;500&family=Pacifico&family=Pridi&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #D9CDBF;
+}
+
+h1
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
+}

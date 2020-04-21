@@ -1,0 +1,24 @@
+.menu{ 
+    background-color: #0C1F26;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 1px 1px gray;
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.nombre{
+    margin-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    -webkit-transition: all 0.75s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.logo:hover{
+    color: white;
+    text-decoration: none;
+}
